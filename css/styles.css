@@ -1,0 +1,115 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.color-section{
+    background-color : #0AA;
+}
+
+.non-color-section{
+    background-color : #fff;
+}
+
+
+#title{
+    text-align:center;
+}
+
+#title .container-fluid{
+    padding-top : 3%;
+
+}
+
+#title h1{
+    font-size : 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-family : "Ubuntu";
+    font-size : 1.5rem;
+    font-weight : bold;
+}
+
+.navbar{
+    padding : 0 0 4.5rem;
+}
+
+.nav-item {
+    padding : 0 18px;
+}
+
+.nav-link{
+    font-weight:400;
+    font-size: 1.2rem;
+}
+
+#profile-picture{
+    width: 25%;
+}
+
+
+#skills i{
+    padding: 2rem 0;
+
+}
+
+#skills i:hover, #footer i:hover{
+    color:#0AA;
+}
+
+
+#skills h3{
+    font-size : 1.5rem;
+    font-weight: 600;
+}
+#skills p{
+    color:#8f8f8f;
+}
+
+
+.carousel-item{
+    padding : 7% 15%;
+}
+
+
+#portofolio h2{
+    font-size : 1.5rem;
+    line-height : 1.5;
+    font-weight: 600;
+}
+
+.portofolio-img {
+    width : 50%;
+    margin:20px;
+}
+
+#footer i{
+    margin: 3% 2%;
+    color: #8f8f8f;
+}
+
+@media (max-width:720px){
+
+    #profile-picture{
+        width: 50%;
+    }
+    #title h1{
+    font-size : 1.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    }
+    #title h3{
+        font-size : 1rem;
+    }
+    #title p{
+        font-size : 0.8rem;
+    }
+}
